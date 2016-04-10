@@ -24,7 +24,7 @@ public class StudentRepository {
         students.add(new Student("Milan Sekulić", "PMF", R.drawable.milan_sekulic));
         students.add(new Student("Ljubiša Moćić", "PMF", R.drawable.ljubisa_mocic));
         students.add(new Student("Jasna Stanković", "FTN", R.drawable.jasna_stankovic));
-        students.add(new Student("Goran Todorović", "PMF", R.drawable.goran_todorovic));
+        students.add(new Student("Goran Todorović", "FTN", R.drawable.goran_todorovic));
         students.add(new Student("Helena Zečević", "FTN", R.drawable.helena_zecevic));
         students.add(new Student("Mario Vuković", "PMF", R.drawable.mario_vukovic));
         return students;
