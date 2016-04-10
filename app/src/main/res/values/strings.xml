@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">WorkshopDemo</string>
+    <string name="welcome_message">Welcome to Execom Android workshops!</string>
+    <string name="agenda">This app was made to demo Layouts, Tab Navigation, Fragments, ListView and GridView. Also, pay attention to coding style and resource management (strings, dimensions, styles).</string>
+    <string name="home">Home</string>
+    <string name="participants">Participants</string>
+</resources>

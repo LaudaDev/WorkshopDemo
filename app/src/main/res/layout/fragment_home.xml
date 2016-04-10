@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/default_padding"
+    tools:context="eu.execom.workshopdemo.fragments.HomeFragment">
+
+    <!-- This layout is used to center content within its parent -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <!--
+        You will notice that styles are being used here. This is to show that the DRY (Do not
+        Repeat Yourself) principle extends to layouts defined in XML. Notice that we are saving
+        4 lines of code per text view like this. If we decide we want to change something in that style
+        we only have to change it at one place VS many if we weren't doing this.
+        -->
+
+        <TextView
+            style="@style/CenteredTextView"
+            android:layout_margin="@dimen/default_view_margin"
+            android:text="@string/welcome_message"
+            android:textSize="30sp" />
+
+        <TextView
+            style="@style/CenteredTextView"
+            android:layout_margin="@dimen/default_view_margin"
+            android:text="@string/agenda" />
+
+    </LinearLayout>
+
+</RelativeLayout>
